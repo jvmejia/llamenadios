@@ -31,8 +31,8 @@ a {
   }
 
   body {
-    color: white;
-    background:violet;
+    color: blue;
+    background:black;
   }
 
   * ::-webkit-scrollbar {
