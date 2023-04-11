@@ -81,7 +81,7 @@ export default function Home() {
     };
 
     const newFile = () => {
-        setFiles([...files, { name: "newFile.txt", text: "" }]);
+        setFiles([...files, { name: "archivoNuevo.txt", text: "" }]);
         setSelectedFile(files.length);
     };
 
@@ -142,7 +142,8 @@ export default function Home() {
 
             <header className={styles.header}>
                 <div className={styles.titleheader}>
-                    <span>File</span>
+                    <span>Analizador Léxico</span>
+                    
                     <div className={styles.fileDiv}>
                         <input
                             type="file"
@@ -154,9 +155,6 @@ export default function Home() {
                             <Image src={plus} alt="" width="30" />
                         </label>
                     </div>
-                </div>
-                <div>
-                    <button>Buscar Archivo</button>
                 </div>
                 <div className={styles.controllers}>
                     <Image
@@ -182,7 +180,7 @@ export default function Home() {
                             onClick={(e) => newFile()}
                             className={styles.newFile}
                         >
-                            Crear nuevo Archivo
+                            Crear nuevo archivo
                         </span>
                         <h3 className={styles.h3}>Explorer</h3>
                         <button

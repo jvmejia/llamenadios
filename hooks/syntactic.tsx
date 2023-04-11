@@ -239,16 +239,16 @@ const validateCode = (code: string) => {
         const body = /\bbody\s*\b/.test(result[0]);
         const end = /\bend\s*\b/.test(result[0]);
         if (!init) {
-            errorVars.push("Missing init statement");
+            errorVars.push("Declaración init faltante");
         }
         if (!vars) {
-            errorVars.push("Missing vars statement");
+            errorVars.push("Declaración vars faltante");
         }
         if (!body) {
-            errorVars.push("Missing body statement");
+            errorVars.push("Declaración body faltante");
         }
         if (!end) {
-            errorVars.push("Missing end statement");
+            errorVars.push("Declaración end faltante");
         }
     } else {
         errorVars.push(

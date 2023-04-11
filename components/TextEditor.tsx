@@ -37,7 +37,7 @@ export const TextEditor = (props: any, monaco: Monaco) => {
                     height={"100%"}
                     theme="vs-dark"
                     defaultLanguage="javascript"
-                    defaultValue="// some comment"
+                    defaultValue="//Si usted lo desea, puede incluir su código aquí"
                     value={code}
                     onChange={async (txt) =>
                         onChange(
