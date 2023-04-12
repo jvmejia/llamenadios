@@ -11,7 +11,7 @@
   padding: .3rem;
   text-align: center;
   font-size: .8rem;
-  font-weight: 600;
+  font-weight: 850;
 }
 
 
@@ -33,12 +33,14 @@
 }
 
 .explorer {
+  color: black;
   width: 20%;
   height: 100%;
-  background-color: #D3D3D3;
+  background-color: #272629;
   display: flex;
   flex-direction: column;
   align-items: left;
+  font-weight:bolder ;
 }
 
 .explorer .h3 {
@@ -50,7 +52,7 @@
 }
 
 .explorer .file input[type="file"] {
-  border: 0.5px solid #fff;
+  border: 0.5px solid black;
   padding: auto;
   border-radius: 10px;
 }
@@ -70,6 +72,7 @@
   border-radius: 2px;
   margin: 0 0 .5rem 0;
   width: 100%;
+  color:wheat
 }
 
 .explorer input[type="button"]:hover {
@@ -97,7 +100,7 @@
 	cursor: pointer; /* "hand" cursor */
   font-size: 1.25em;
   font-weight: 700;
-  color: white;
+  color: black;
   display: inline-block;
 }
 
@@ -176,7 +179,7 @@
   display: flex;
   overflow: hidden;
   white-space: nowrap;
-  background-color: #2a0051;
+  color: whitesmoke;
 }
 
 
@@ -217,7 +220,7 @@
   height: 2.5rem;
   border-top: 2px solid #eaeaea;
   text-align: center;
-  background-color: #2a0051;
+  background-color:black;
 }
 
 .footer span {
@@ -333,7 +336,7 @@
   }
 
   .code {
-    background-color: black;
+    background-color: gray;
   }
 
   .logo img {

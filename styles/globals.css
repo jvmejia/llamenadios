@@ -33,7 +33,7 @@ a {
   body {
     font-weight: bold;
     color: #3f0d6e;
-    background:wheat;
+    background:transparent;
   }
 
   * ::-webkit-scrollbar {
